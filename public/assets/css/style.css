@@ -1,0 +1,119 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    line-height: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.nav_menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav_menu-item {
+    margin-right: 15px;
+}
+
+.nav_menu-link {
+    padding: 15px 20px;
+    transition: .35s all;
+    font-family: 'Nunito';
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #b3b3b3;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.nav_menu-link:hover, .nav_menu-link:focus, .nav_menu-link:active {
+    background: #eee;
+}
+
+.intro {
+    background: url(../img/beauty-salon.jfif) no-repeat center;
+    width: 100%;
+    height: 100vh;
+}
+
+.intro_wrapper {
+    padding-top: 50px;
+    display: block;
+    margin-left: 185px;
+}
+
+.intro_subtitle {
+    font-family: 'Nunito';
+    font-size: 54px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #41CD52;
+    max-width: 300px;
+}
+
+.intro_title {
+    font-family: 'Nunito';
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    color: #09102B;
+    margin-bottom: 25px;
+    max-width: 350px;
+}
+
+.intro_text {
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    color: #53586B;
+    max-width: 350px;
+    margin-bottom: 30px;
+}
+
+.intro-btn {
+    letter-spacing: 1.1px;
+    color: #fff;
+    border: 1px solid #41CD52;
+    border-radius: 5%;
+    transition: 0.2s;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    background: #41CD52;
+    margin: 24px 12px 0 0;
+    padding: 10px 15px;
+}
